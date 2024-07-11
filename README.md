@@ -1,16 +1,18 @@
 # 判斷題
-1. ：X
-2. ：O
 
 # 單選題
-1. 
-```
-正确答案：B
-```
 
 
 # 多選題
-1. 
+
 ```
-正确答案：BCD
+^A：
+```\nA：
+
+\s+您的答案.*$
+\n```
+```
+
+```powershell
+.\ReorderLines.ps1 -FilePath "F:\CESBG+DCaS\Git\fox-course-test\temp.md" -OutputFilePath "" -SearchRegex "^\d+\." -ReplaceRegex "." -StartLine 10 -EndLine 20
 ```
