@@ -19,4 +19,5 @@
 3. 執行指令: 修改 `OutputFilePath`
 ```powershell
 .\ReorderLines.ps1 -FilePath "F:\CESBG+DCaS\Git\fox-course-test\temp.md" -OutputFilePath "F:\CESBG+DCaS\Git\fox-course-test\" -SearchRegex "^\d+\." -ReplaceRegex "."
+.\ReorderLines.ps1 -FilePath "D:\Git\fox-course-test\temp.md" -OutputFilePath "D:\Git\fox-course-test\" -SearchRegex "^\d+\." -ReplaceRegex "."
 ```
