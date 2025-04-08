@@ -68,4 +68,4 @@ $content | ForEach-Object -Begin {
         # 如果當前行不在指定範圍內，直接返回原行
         $_
     }
-} | Set-Content $OutputFilePath
+} | Set-Content $OutputFilePath -Encoding utf8
